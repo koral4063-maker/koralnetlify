@@ -209,6 +209,15 @@ footer{padding:1.25rem 3rem;border-top:1px solid var(--line);display:flex;justif
         </div>
         <div class="card-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
       </div>
+      <div class="proj-big-card" onclick="showProject('drmartens')">
+        <img class="cover" src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/a1929.png" style="object-fit:cover">
+        <div class="info">
+          <div class="info-num">07 — Brand Identity</div>
+          <div class="info-name">Dr. Martens</div>
+          <div class="info-desc">Rebranding strategy and visual language for Dr. Martens digital product</div>
+        </div>
+        <div class="card-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></div>
+      </div>
     </div>
   </div>
   <div class="contact-bar">
@@ -574,6 +583,119 @@ document.querySelectorAll('.pg-item img').forEach(img=>{
     <video controls autoplay muted loop playsinline style="width:100%;border-radius:12px;display:block">
       <source src="pulsepoint-prototype.mp4" type="video/mp4">
     </video>
+  </div>
+</div>
+<div id="case-drmartens" style="display:none;background:#1e1e1e;color:#fff;font-family:'Inter',sans-serif">
+  <style>
+    #case-drmartens {font-family:'Inter',sans-serif}
+    .dm-hero {width:100%;position:relative;background:#1e1e1e}
+    .dm-hero img {width:100%;display:block;max-height:60vh;object-fit:cover}
+    .dm-meta {padding:2rem 3rem 1rem;display:flex;gap:3rem;border-bottom:1px solid #333}
+    .dm-meta span {font-size:0.85rem;color:#aaa;text-transform:uppercase;letter-spacing:0.08em}
+    .dm-section {max-width:1200px;margin:0 auto;padding:3rem 3rem}
+    .dm-label {font-size:3rem;font-weight:700;color:#fbd700;margin-bottom:1rem;border:2px solid #fbd700;display:inline-block;padding:0.5rem 2rem;border-radius:100px}
+    .dm-label-white {font-size:3rem;font-weight:700;color:#fff;margin-bottom:1rem;border:2px solid #fff;display:inline-block;padding:0.5rem 2rem;border-radius:100px}
+    .dm-body {font-size:1.1rem;line-height:1.8;color:#ccc;max-width:900px;margin-bottom:2rem}
+    .dm-macbook {width:100%;display:block;margin:2rem 0}
+    .dm-moodboard {display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem;margin:2rem 0}
+    .dm-mood-item img {width:100%;height:300px;object-fit:cover;border-radius:12px;transition:transform 0.4s ease}
+    .dm-moodboard:hover .dm-mood-item img {transform:scale(0.97)}
+    .dm-mood-item:hover img {transform:scale(1.03)!important}
+    .dm-values {display:flex;gap:2rem;margin:2rem 0;justify-content:center}
+    .dm-value {text-align:center;color:#1e1e1e;font-size:1rem}
+    .dm-value-circle {width:200px;height:200px;border-radius:50%;background:#fbd700;display:flex;align-items:center;justify-content:center;font-size:0.95rem;text-align:center;padding:1rem}
+    .dm-screens-grid {display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2rem 0}
+    .dm-screens-grid img {width:100%;border-radius:12px;display:block}
+    .dm-full-img {width:100%;display:block;border-radius:12px;margin:1.5rem 0}
+    .dm-phone-wrap {display:flex;justify-content:center;margin:2rem 0}
+    .dm-phone-wrap img {max-width:400px;border-radius:40px}
+    .dm-sticker {width:60%;display:block;margin:2rem auto}
+  </style>
+
+  <!-- Hero mockup -->
+  <div class="dm-hero">
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/a1929.png" alt="Dr. Martens mockup">
+  </div>
+
+  <!-- Meta -->
+  <div class="dm-meta">
+    <span>Client — Student project</span>
+    <span>Illustration</span>
+    <span>Brand identity</span>
+    <span style="margin-left:auto;color:#fff">Koral Ovadia</span>
+  </div>
+
+  <!-- The Brief -->
+  <div class="dm-section">
+    <div class="dm-label">The brief</div>
+    <p class="dm-body">This project focuses on developing a rebranding strategy and visual language for a digital product. The process includes research, concept development, and defining a clear tone of voice and design system. The project explores how branding can be translated into digital interfaces through elements such as login screens and empty states, while maintaining consistency and usability. The outcome is a cohesive visual identity that strengthens the user experience and communicates the brand effectively.</p>
+  </div>
+
+  <!-- The Brand -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label">The brand</div>
+    <p class="dm-body">Dr. Martens is an iconic British footwear brand known for its heavy leather boots, air-cushioned soles, and distinctive yellow stitching. The brand began as a functional work shoe but evolved into a cultural symbol of rebellion, individuality, and self-expression, embraced by subcultures such as punk, grunge, and alternative.</p>
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/d1456.png" alt="Dr Martens" style="max-width:500px;border-radius:12px;margin:1rem 0">
+    <!-- Brand values -->
+    <div class="dm-values">
+      <div class="dm-value"><div class="dm-value-circle">Individuality and self-expression</div></div>
+      <div class="dm-value"><div class="dm-value-circle">Durability and quality</div></div>
+      <div class="dm-value"><div class="dm-value-circle">Authenticity and heritage</div></div>
+    </div>
+  </div>
+
+  <!-- Why Dr. Martens -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label">Why dr. martens</div>
+    <p class="dm-body">I chose Dr. Martens as the brand for rebranding because, despite its strong and recognizable identity, its visual language is currently focused mainly on the physical and fashion world, and less on digital experiences and interfaces. The current website lacks illustration elements, and its empty states are purely text-based, limiting the brand's ability to express its character in a more engaging and visual way.</p>
+  </div>
+
+  <!-- Mood Board -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label">Mood Board</div>
+    
+<div class="dm-moodboard">
+  <div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/193c2.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/c21b0.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/088ad.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/a37f7.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/54637.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/13a76.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/4f01b.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/11af6.png" alt=""></div><div class="dm-mood-item"><img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/a7b69.png" alt=""></div>
+</div>
+
+  </div>
+
+  <!-- Sketches -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label">Sketches</div>
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/6c753.png" alt="Sketches" class="dm-full-img">
+  </div>
+
+  <!-- Empty States -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label-white">final empty state</div>
+    <p class="dm-body" style="color:#aaa;margin-top:1rem">in progress</p>
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/59d46.png" alt="In progress empty state" class="dm-full-img">
+    <p class="dm-body" style="color:#aaa">no connection</p>
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/bc505.png" alt="No connection sticker" class="dm-sticker">
+    <p class="dm-body" style="color:#aaa">no permission</p>
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/34713.png" alt="No permission" class="dm-full-img">
+    <p class="dm-body" style="color:#aaa">Under Maintenance</p>
+  </div>
+
+  <!-- Screens -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label">screens</div>
+    <div class="dm-screens-grid">
+      <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/f7e88.png" alt="Screen">
+      <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/a9a5f.png" alt="Screen">
+      <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/f1ce4.png" alt="Screen">
+      <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/f24a6.png" alt="Screen">
+    </div>
+  </div>
+
+  <!-- Login page -->
+  <div class="dm-section" style="border-top:1px solid #333">
+    <div class="dm-label">log in page</div>
+    <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/59d46.png" alt="Login page" class="dm-full-img">
+    <div class="dm-phone-wrap">
+      <img src="https://www.figma.com/api/mcp/asset/1cc09f31-5257-44b3-b00f-e8351ddf6046/bbc5e.png" alt="iPhone mockup">
+    </div>
   </div>
 </div>
 </body>
